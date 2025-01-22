@@ -1,0 +1,89 @@
+header{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 200;
+    border-bottom-width: 0.1px;
+    border-bottom-color: rgb(61, 58, 58);
+    border-bottom-style: groove;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+  
+.mid-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    margin-right: 500px;
+}
+  
+.right-section {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hamburger-menu {
+    height: 22px;
+    margin-left: 24px;
+    margin-right: 22px;
+    cursor: pointer;
+    z-index: 200;
+}
+.yt-logo{
+    height: 28px;
+}
+
+.search-box {
+    padding-left: 10px;
+    flex: 1;
+    height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(42, 40, 40);
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: rgb(113, 110, 110);
+    border-bottom-color: rgb(105, 101, 101);
+    border-right-color: rgb(104, 98, 98);
+    border-left-color: rgb(42, 40, 40);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+  
+.search-box::placeholder {
+    font-family: Roboto, Arial;
+}
+.search-pic{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left-color: rgb(109, 104, 104);
+    border-top-color: rgb(119, 113, 113);
+    border-bottom-color: rgb(118, 113, 113);
+    border-style: solid;
+    border-width: 1px;
+    width: 40px;
+    margin-right: -1px;
+}
+.connect-icon{
+    width: 56px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.my-channel-icon {
+    height: 26px;
+    border-radius: 16px;
+    cursor: pointer;
+} 
