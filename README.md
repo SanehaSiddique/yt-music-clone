@@ -14,7 +14,6 @@ The aim of this project was to practice **HTML** and **CSS** by recreating a sin
 
 - Single-page design inspired by the YouTube Music website.
 - Focus on proper layout and styling using CSS.
-- Practiced responsive design principles (if applicable).
 
 ---
 
